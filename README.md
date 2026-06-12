@@ -25,6 +25,8 @@ If you get stuck, leave a comment explaining what you tried and what confused yo
 
 Read the instructions inside each file — they are written as comments.
 
+Do not copy/paste any snippets. Please write your solutions out completely as this is good practice to see if you are familiar with the syntax.
+
 ---
 
 ## File Structure
