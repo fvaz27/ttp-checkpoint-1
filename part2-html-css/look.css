@@ -12,19 +12,31 @@
   TASK A
   Using the body TAG selector, set a background color on the page.
 */
+body{
+  background-color: bisque;
+}
 
 
 /*
   TASK B
   Using the h1 TAG selector, set a font size and a color.
 */
-
+h1{
+  font-size: 4rem;
+  color:burlywood;
+}
 
 /*
   TASK C
   Using the CLASS selector, style the list items with the highlight class.
   Give them a background color and some padding so they stand out.
 */
+.highlight{
+  background-color: brown;
+  padding: 4px;
+  width: 5rem;
+  color: aliceblue;
+}
 
 
 /*
@@ -32,6 +44,10 @@
   Using the ID selector, give the h2 with the id section-title a color that is
   different from the h1 and different from body text.
 */
+
+#section-title{
+  color: rgba(66, 51, 4, 0.459)
+}
 
 
 /*
@@ -47,9 +63,23 @@
            Write your answer as a comment below this rule.
 
 
-           answer:
+           answer:I am not sure but from the console, expanding padding expands the border? and pushed the content away from the border while margin is outside and pushes the border away from other content on the page
 */
-
+#box{
+  width: 4rem;
+}
+#box{
+  height: 1.5rem;
+}
+#box{
+  border: 2px solid black;
+}
+#box{
+  padding: 4px;
+}
+#box{
+  margin: 10px;
+}
 
 /*
   TASK F
@@ -57,7 +87,14 @@
   It must have a background color, a text color, a border, padding,
   and a cursor: pointer that turns into a pointer when the user hovers over it.
 */
-
+#click-me{
+  background-color: aliceblue;
+  color: rgb(8, 86, 154);
+  border: 10px transparent black;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 50%;
+}
 
 /*
   TASK G — Specificity
@@ -74,3 +111,17 @@
 
            answer:
 */
+
+/* simply using the ptag selector chnages the color 
+however when using the id it take priority. My assumption is because it
+is like calling the class room name, all the students will listen, however if 
+you specify a single students name then only that student will listen
+*/
+
+p{
+  color:rgb(4, 84, 57); 
+}
+
+#intro{
+  color:rgb(131, 75, 2)
+}
